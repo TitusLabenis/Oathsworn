@@ -14,8 +14,9 @@ public class EnemyController : PlayerAttack {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PlayerSword") 
+        if (other.gameObject.CompareTag("PlayerSword")
             && enemyHit == false
+            && swordStatus == ATTACKING
             )
         {
             enemyHP = enemyHP - 5f;

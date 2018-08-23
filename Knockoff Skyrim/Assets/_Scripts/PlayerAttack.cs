@@ -9,7 +9,7 @@ public class PlayerAttack : MonoBehaviour {
     private const int RIGHTCLICK = 1;
     private const int MIDDLECLICK = 2;
 
-    private int swordStatus = IDLE;
+    public int swordStatus = IDLE;
 
     //Sword Statuses
     private const int IDLE = 0;
@@ -55,7 +55,7 @@ public class PlayerAttack : MonoBehaviour {
         swordStatus = BLOCK;
         playerSword.GetComponent<Animation>().Play("SwordBlock");
         swordStatus = BLOCKING;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
     }
 
     IEnumerator SwingSwordFunction()
@@ -63,7 +63,7 @@ public class PlayerAttack : MonoBehaviour {
         swordStatus = ATTACK;
         playerSword.GetComponent<Animation>().Play("SwordAttack");
         swordStatus = ATTACKING;
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.75f);
         swordStatus = IDLE;
     }
 }
