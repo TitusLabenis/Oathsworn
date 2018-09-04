@@ -26,6 +26,7 @@ public class RewindAttack : PlayerAttack {
         if(collision.gameObject.CompareTag("PlayerSword") && swordStatus == BLOCKING)
         {
             StartRewind();
+            Debug.Log("Enemy Attack Blocked");
         }
 
         if (sword == startPos)
@@ -36,7 +37,9 @@ public class RewindAttack : PlayerAttack {
 
     void StartRewind()
     {
+        attackingPlayer = false;
         isRewinding = true;
+        
     }
 
     void StopRewind()

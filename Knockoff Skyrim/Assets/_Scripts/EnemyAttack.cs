@@ -10,6 +10,8 @@ public class EnemyAttack : EnemyDetection {
     [SerializeField]
     private GameObject enemySword;
 
+    private bool attackedPlayer = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -17,7 +19,7 @@ public class EnemyAttack : EnemyDetection {
 	
 	// Update is called once per frame
 	void Update () {
-		if (attackingPlayer == true)
+		if (attackingPlayer == true && attackedPlayer == false)
         {
             AttackPlayer();
         }
@@ -28,5 +30,6 @@ public class EnemyAttack : EnemyDetection {
         transform.LookAt(player);
         enemySword.GetComponent<Animation>().Play("EnemyAttack");
         Debug.Log("Attacking Player");
+        attackedPlayer = true;
     }
 }
