@@ -21,24 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 913, y: 492}
-  m_MaxSize: {x: 22008, y: 14042}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 7284
-=======
-  controlID: 3840
-<<<<<<< HEAD
-=======
-    height: 947
   m_MinSize: {x: 917, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 175
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+  controlID: 7872
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,10 +45,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 504
+    x: 670
     y: 91
-    width: 678
-    height: 710
+    width: 650
+    height: 806
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -72,10 +58,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -339
-    m_HBaseRangeMax: 339
-    m_VBaseRangeMin: -346.5
-    m_VBaseRangeMax: 346.5
+    m_HBaseRangeMin: -325
+    m_HBaseRangeMax: 325
+    m_VBaseRangeMin: -394.5
+    m_VBaseRangeMax: 394.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -92,25 +78,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 678
-      height: 693
+      width: 650
+      height: 789
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 339, y: 346.5}
+    m_Translation: {x: 325, y: 394.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -339
-      y: -346.5
-      width: 678
-      height: 693
+      x: -325
+      y: -394.5
+      width: 650
+      height: 789
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 678, y: 710}
+  m_LastWindowPixelSize: {x: 650, y: 806}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -132,27 +118,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1184
+    width: 1322
     height: 948
-  m_MinSize: {x: 402, y: 342}
-  m_MaxSize: {x: 8002, y: 8042}
-  vertical: 1
-<<<<<<< HEAD
-  controlID: 7285
-=======
-  controlID: 3841
-<<<<<<< HEAD
-=======
-    width: 1157
-    height: 947
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 176
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+  controlID: 7873
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,27 +142,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1184
-    height: 731
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 7286
-=======
-  controlID: 3975
-<<<<<<< HEAD
-=======
-    width: 1157
-    height: 826
+    width: 1322
+    height: 827
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 177
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+  controlID: 7874
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,8 +164,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 502
-    height: 731
+    width: 668
+    height: 827
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -241,18 +197,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 91
-    width: 500
-    height: 710
+    width: 666
+    height: 806
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 5137.033371062312
+  lastFramingTime: 1172.000530491898
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.4037638, y: 2.2847369, z: 4.9490833}
+    m_Target: {x: 2.255663, y: 3.1388574, z: 2.5400462}
     speed: 2
-    m_Value: {x: -2.4037638, y: 2.2847369, z: 4.9490833}
+    m_Value: {x: 2.255663, y: 3.1388574, z: 2.5400462}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -280,29 +236,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.35273835, y: -0.42136958, z: 0.18229431, w: -0.8153479}
+    m_Target: {x: -0.099301726, y: 0.7090853, z: -0.101958245, w: -0.69060975}
     speed: 2
-    m_Value: {x: 0.35273835, y: 0.42136958, z: -0.18229431, w: 0.8153479}
+    m_Value: {x: -0.09930172, y: 0.7090853, z: -0.10195824, w: -0.69060975}
   m_Size:
-    m_Target: 12.7011795
+    m_Target: 5.783875
     speed: 2
-<<<<<<< HEAD
-    m_Value: 12.7011795
-=======
-    m_Value: 2.23254
-<<<<<<< HEAD
-=======
-    m_Target: {x: 0.12791952, y: 0.83013064, z: -0.21268454, w: 0.4992845}
-    speed: 2
-    m_Value: {x: 0.12791952, y: 0.8301307, z: -0.21268456, w: 0.4992845}
-  m_Size:
-    m_Target: 4.1951046
-    speed: 2
-    m_Value: 4.1951046
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+    m_Value: 5.783875
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -395,10 +335,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 502
+    x: 668
     y: 0
-    width: 682
-    height: 731
+    width: 654
+    height: 827
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
@@ -421,17 +361,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 731
-    width: 1184
-    height: 217
+    y: 827
+    width: 1322
+    height: 121
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 11}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,9 +393,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 822
-    width: 1182
-    height: 196
+    y: 918
+    width: 1320
+    height: 100
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &12
 MonoBehaviour:
@@ -478,26 +418,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 822
-    width: 1182
-    height: 196
+    y: 918
+    width: 1320
+    height: 100
   m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastSelectedObjectID: 11574
-=======
-<<<<<<< Updated upstream
-  m_LastSelectedObjectID: 11578
-=======
-  m_LastSelectedObjectID: 14254
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
-  m_LastSelectedObjectID: 11578
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+  m_LastSelectedObjectID: 12910
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -514,29 +442,14 @@ MonoBehaviour:
   - {fileID: 16}
   m_Position:
     serializedVersion: 2
-    x: 1184
+    x: 1322
     y: 0
-    width: 242
+    width: 321
     height: 948
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 6952
-=======
-  controlID: 3875
-<<<<<<< HEAD
-=======
-    width: 446
-    height: 947
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
-  vertical: 1
-  controlID: 123
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+  controlID: 7526
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -553,7 +466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 242
+    width: 321
     height: 632
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -582,37 +495,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1186
+    x: 1324
     y: 91
-    width: 238
+    width: 317
     height: 611
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: 362d0000
-    m_LastClickedID: 11574
-    m_ExpandedIDs: ecfbffffeefbfffff0fbffff00000000362d0000622d0000
-=======
-    m_SelectedIDs: 3a2d0000
-    m_LastClickedID: 11578
-    m_ExpandedIDs: ecfbffffeefbfffff0fbffff000000003a2d00005a2d0000662d0000
-<<<<<<< HEAD
-=======
-    x: 1159
-    y: 92
-    width: 442
-    height: 610
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff00000000
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+    m_SelectedIDs: 6e320000
+    m_LastClickedID: 12910
+    m_ExpandedIDs: 5ef6ffff60f6ffff62f6fffff0fbffff000000006e3200008e3200009a320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -631,7 +523,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 14}
     m_SearchString: 
   m_ExpandedScenes:
-  - Scene1
+  - SampleScene
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -652,7 +544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 632
-    width: 242
+    width: 321
     height: 316
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -681,9 +573,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1186
+    x: 1324
     y: 723
-    width: 238
+    width: 317
     height: 295
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -698,35 +590,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Animations
+    - Assets/_Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Animations
+  - Assets/_Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Jerry\Programming\GitHub\Oathsworn\Knockoff Skyrim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 10}
-<<<<<<< HEAD
-    m_SelectedIDs: 982a0000
-    m_LastClickedID: 10904
-    m_ExpandedIDs: 0000000084290000f0290000342a0000842b0000c62d0000c82d0000ca2d0000cc2d000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: ee290000
-    m_LastClickedID: 10734
-    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
-<<<<<<< HEAD
-=======
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 180a0000
-    m_LastClickedID: 2584
-    m_ExpandedIDs: 00000000a8090000a22e0000a42e0000a62e0000a82e000000ca9a3b
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+    m_SelectedIDs: 302f0000
+    m_LastClickedID: 12080
+    m_ExpandedIDs: 00000000c62e0000302f0000a82f0000c4300000ec320000ee320000f0320000f232000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -754,19 +631,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 0000000084290000f0290000342a0000842b0000c62d0000c82d0000ca2d0000cc2d000000ca9a3bffffff7f
-=======
-<<<<<<< Updated upstream
-    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
-=======
-    m_ExpandedIDs: 00000000a8090000a22e0000a42e0000a62e0000a82e0000
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
-    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+    m_ExpandedIDs: 00000000c62e0000302f0000a82f0000c4300000ec320000ee320000f0320000f232000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -791,25 +656,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: 362d0000
-    m_LastClickedInstanceID: 11574
-=======
-<<<<<<< Updated upstream
-    m_SelectedInstanceIDs: 3a2d0000
-    m_LastClickedInstanceID: 11578
-=======
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
->>>>>>> Stashed changes
->>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
-=======
-    m_SelectedInstanceIDs: 3a2d0000
-    m_LastClickedInstanceID: 11578
->>>>>>> parent of 84aed43... Added basic Navmesh and follow script
+    m_SelectedInstanceIDs: 6e320000
+    m_LastClickedInstanceID: 12910
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 442700006e3dfdfff83bfdff803afdff2c2400005a3e00009e240000c2230000c0230000f2230000f8230000fc23000000000000342c0000
+    m_ExpandedInstanceIDs: 442700006e3dfdfff83bfdff803afdff2c2400005a3e0000000000009e240000c2230000c0230000f2230000f8230000fc230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -835,7 +685,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 118
+  m_DirectoriesAreaWidth: 110
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -850,9 +700,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1426
+    x: 1643
     y: 0
-    width: 494
+    width: 277
     height: 948
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -862,7 +712,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -883,9 +733,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1428
+    x: 1645
     y: 91
-    width: 492
+    width: 275
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -917,9 +767,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1605
+    x: 1594
     y: 91
-    width: 315
+    width: 326
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &21
@@ -946,16 +796,14 @@ MonoBehaviour:
     width: 275
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
+  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   - file://C:/Users/Jerry/AppData/Roaming/Unity/Packages/node_modules/unityeditor-cloud-hub/dist/index.html?failure=unity_connect
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/unet
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/crash
-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
   m_RegisteredViewInstances:
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

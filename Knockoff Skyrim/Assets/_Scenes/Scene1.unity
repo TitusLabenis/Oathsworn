@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackingPlayer: 0
+  Enemy: {fileID: 1315649267}
   swordStatus: 0
   playerSword: {fileID: 37149050}
 --- !u!54 &37149057
@@ -294,7 +295,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294966783
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -368,87 +369,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 72724150}
---- !u!1 &747991671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 747991672}
-  - component: {fileID: 747991675}
-  - component: {fileID: 747991674}
-  - component: {fileID: 747991673}
-  m_Layer: 0
-  m_Name: OverlayCamera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &747991672
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747991671}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 551693656}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &747991673
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747991671}
-  m_Enabled: 1
---- !u!124 &747991674
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747991671}
-  m_Enabled: 1
---- !u!20 &747991675
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 747991671}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 3
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 512
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1 &1121169143
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1315649268}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1121169145
 BoxCollider:
@@ -567,7 +487,6 @@ Transform:
   m_LocalPosition: {x: -0.8, y: 0.68025, z: 0}
   m_LocalScale: {x: 0.1, y: 1.3421112, z: 0.1}
   m_Children:
-  - {fileID: 1546069734}
   - {fileID: 1121169144}
   m_Father: {fileID: 2020452685}
   m_RootOrder: 0
@@ -680,6 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackingPlayer: 1
+  Enemy: {fileID: 0}
   player: {fileID: 1635511723}
   enemySword: {fileID: 1315649267}
   anim: {fileID: 1315649271}
@@ -695,6 +615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackingPlayer: 1
+  Enemy: {fileID: 0}
   swordStatus: 0
   playerSword: {fileID: 37149050}
   startPos: {fileID: 1121169144}
@@ -725,11 +646,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1546069733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: -0.74666667, z: -0.0000047684}
-  m_LocalScale: {x: 72.409424, y: 0.38618377, z: 72.409454}
+  m_LocalPosition: {x: 0, y: -0.32185978, z: -0}
+  m_LocalScale: {x: 6.969789, y: 0.4988924, z: 6.969789}
   m_Children: []
-  m_Father: {fileID: 1315649268}
-  m_RootOrder: 0
+  m_Father: {fileID: 2020452685}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1546069735
 BoxCollider:
@@ -797,6 +718,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackingPlayer: 0
+  Enemy: {fileID: 1315649267}
+--- !u!1 &1546829772 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 72724150}
+--- !u!65 &1546829778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1546829772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.5079808, z: 0.831092}
+  m_Center: {x: 0, y: -0.010430098, z: -0.24160916}
 --- !u!1 &1635511722
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,8 +778,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.0682168}
+  m_Center: {x: 0, y: 0, z: 0.03410805}
 --- !u!23 &1635511725
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -927,8 +865,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.0875878}
+  m_Center: {x: 0, y: 0, z: -0.043793917}
 --- !u!65 &2020452682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -994,6 +932,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.4571795, z: 1}
   m_Children:
   - {fileID: 1315649268}
+  - {fileID: 1546069734}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1009,6 +948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackingPlayer: 0
+  Enemy: {fileID: 0}
   swordStatus: 0
   playerSword: {fileID: 37149050}
   enemyHP: 10

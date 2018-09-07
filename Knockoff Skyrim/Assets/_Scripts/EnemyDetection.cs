@@ -6,8 +6,11 @@ public class EnemyDetection : MonoBehaviour {
 
     public bool attackingPlayer = false;
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField]
+    private GameObject Enemy;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -20,6 +23,7 @@ public class EnemyDetection : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Enemy.GetComponent<EnemyAttack>().AttackPlayer();
             attackingPlayer = true; //tells other script that the player has been found once he collides with the view range
             Debug.Log("Player Detected");
         }
