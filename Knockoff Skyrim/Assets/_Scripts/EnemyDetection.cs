@@ -20,7 +20,7 @@ public class EnemyDetection : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            attackingPlayer = true;
+            attackingPlayer = true; //tells other script that the player has been found once he collides with the view range
             Debug.Log("Player Detected");
         }
     }

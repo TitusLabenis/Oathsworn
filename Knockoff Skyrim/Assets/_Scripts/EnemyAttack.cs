@@ -12,24 +12,41 @@ public class EnemyAttack : EnemyDetection {
 
     private bool attackedPlayer = false;
 
+    private bool attackPlayer;
+
+    [SerializeField]
+    private Animation anim;
+
 	// Use this for initialization
 	void Start () {
-		
-	}
+        GameObject.Find("EnemyAttackRange").GetComponent<EnemyDetection>().attackingPlayer = attackPlayer;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		if (attackingPlayer == true && attackedPlayer == false)
+		if (
+            attackPlayer == true && 
+            attackedPlayer == false
+            )
         {
-            AttackPlayer();
+            AttackPlayer(); //attack the player if he's detected
+            Debug.Log("Will Attack Player");
         }
 	}
 
     void AttackPlayer()
     {
-        transform.LookAt(player);
-        enemySword.GetComponent<Animation>().Play("EnemyAttack");
+        transform.LookAt(player); //faces player
+        enemySword.GetComponent<Animation>().Play("EnemyAttack"); //swings sword
         Debug.Log("Attacking Player");
-        attackedPlayer = true;
+        attackedPlayer = true;//tells detection that we've already attacked the player
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerSword"))
+        {
+            anim["EnemyAttack"].speed = 0; //stops animation if blocked
+        }
     }
 }

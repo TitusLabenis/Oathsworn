@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 492}
   m_MaxSize: {x: 22008, y: 14042}
   vertical: 0
-  controlID: 3840
+  controlID: 7284
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 342}
   m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
-  controlID: 3841
+  controlID: 7285
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 3975
+  controlID: 7286
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,9 +240,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.35273835, y: 0.42136958, z: -0.18229431, w: 0.8153479}
   m_Size:
-    m_Target: 2.23254
+    m_Target: 12.7011795
     speed: 2
-    m_Value: 2.23254
+    m_Value: 12.7011795
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 11578
+  m_LastSelectedObjectID: 11574
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 3875
+  controlID: 6952
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a2d0000
-    m_LastClickedID: 11578
-    m_ExpandedIDs: ecfbffffeefbfffff0fbffff000000003a2d00005a2d0000662d0000
+    m_SelectedIDs: 362d0000
+    m_LastClickedID: 11574
+    m_ExpandedIDs: ecfbffffeefbfffff0fbffff00000000362d0000622d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -590,20 +590,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scripts
+    - Assets/_Animations
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scripts
+  - Assets/_Animations
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Jerry\Programming\GitHub\Oathsworn\Knockoff Skyrim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 10}
-    m_SelectedIDs: ee290000
-    m_LastClickedID: 10734
-    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
+    m_SelectedIDs: 982a0000
+    m_LastClickedID: 10904
+    m_ExpandedIDs: 0000000084290000f0290000342a0000842b0000c62d0000c82d0000ca2d0000cc2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -631,7 +631,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000084290000f0290000342a0000842b0000c62d0000c82d0000ca2d0000cc2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,8 +656,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3a2d0000
-    m_LastClickedInstanceID: 11578
+    m_SelectedInstanceIDs: 362d0000
+    m_LastClickedInstanceID: 11574
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 442700006e3dfdfff83bfdff803afdff2c2400005a3e00009e240000c2230000c0230000f2230000f8230000fc23000000000000342c0000
     m_RenameOverlay:

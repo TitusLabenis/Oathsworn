@@ -679,9 +679,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3b376a919bc0943962f7d11bea4e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackingPlayer: 0
+  attackingPlayer: 1
   player: {fileID: 1635511723}
   enemySword: {fileID: 1315649267}
+  anim: {fileID: 1315649271}
 --- !u!114 &1315649276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971d1a79d95ce004eaf6f4dd92cd2a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackingPlayer: 0
+  attackingPlayer: 1
   swordStatus: 0
   playerSword: {fileID: 37149050}
   startPos: {fileID: 1121169144}
@@ -725,7 +726,7 @@ Transform:
   m_GameObject: {fileID: 1546069733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8, y: -0.74666667, z: -0.0000047684}
-  m_LocalScale: {x: 59.810616, y: 0.31899014, z: 59.81065}
+  m_LocalScale: {x: 72.409424, y: 0.38618377, z: 72.409454}
   m_Children: []
   m_Father: {fileID: 1315649268}
   m_RootOrder: 0

@@ -27,43 +27,43 @@ public class PlayerAttack : EnemyDetection {
 	void Update () {
 		if (Input.GetMouseButtonDown(LEFTCLICK) && swordStatus == IDLE)
         {
-            StartCoroutine(SwingSwordFunction());
+            StartCoroutine(SwingSwordFunction()); //attacks when lmouse is clicked
         }
 
         if (Input.GetMouseButtonDown(RIGHTCLICK) && swordStatus == IDLE)
         {
-            StartCoroutine(BlockSwordFunction());
+            StartCoroutine(BlockSwordFunction()); //raises sword to parry when rmouse is clicked
         }
 
         if (Input.GetMouseButtonUp(RIGHTCLICK) && swordStatus == BLOCKING)
         {
-            StartCoroutine(UnBlockSwordFunction());
+            StartCoroutine(UnBlockSwordFunction()); //drops sword once the player releases rmouse
         }
     }
 
     IEnumerator UnBlockSwordFunction()
     {
-        swordStatus = UNBLOCK;
+        swordStatus = UNBLOCK; //informs the script that the player is about to unblocking
         playerSword.GetComponent<Animation>().Play("SwordUnblock");
-        swordStatus = UNBLOCKING;
+        swordStatus = UNBLOCKING; //informs the script that the player is in the process of unblocking
         yield return new WaitForSeconds(0.5f);
-        swordStatus = IDLE;
+        swordStatus = IDLE; //the player has now dropped his sword and is ready to do whatever
     }
 
     IEnumerator BlockSwordFunction()
     {
-        swordStatus = BLOCK;
+        swordStatus = BLOCK; //player about to raise sword
         playerSword.GetComponent<Animation>().Play("SwordBlock");
-        swordStatus = BLOCKING;
+        swordStatus = BLOCKING; //sword is raised
         yield return new WaitForSeconds(0.25f);
     }
 
     IEnumerator SwingSwordFunction()
     {
-        swordStatus = ATTACK;
+        swordStatus = ATTACK; //player going to attack
         playerSword.GetComponent<Animation>().Play("SwordAttack");
-        swordStatus = ATTACKING;
+        swordStatus = ATTACKING; //player swinging sword
         yield return new WaitForSeconds(0.75f);
-        swordStatus = IDLE;
+        swordStatus = IDLE; //player done swinging sword
     }
 }
