@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -20,7 +20,6 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-<<<<<<< Updated upstream
     height: 948
   m_MinSize: {x: 913, y: 492}
   m_MaxSize: {x: 22008, y: 14042}
@@ -29,6 +28,7 @@ MonoBehaviour:
   controlID: 7284
 =======
   controlID: 3840
+<<<<<<< HEAD
 =======
     height: 947
   m_MinSize: {x: 917, y: 492}
@@ -37,10 +37,12 @@ MonoBehaviour:
   controlID: 175
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -57,17 +59,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
     x: 504
     y: 91
     width: 678
     height: 710
-=======
-    x: 494
-    y: 92
-    width: 661
-    height: 805
->>>>>>> Stashed changes
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -77,81 +72,52 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-<<<<<<< Updated upstream
     m_HBaseRangeMin: -339
     m_HBaseRangeMax: 339
     m_VBaseRangeMin: -346.5
     m_VBaseRangeMax: 346.5
-=======
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -330.5
-    m_HBaseRangeMax: 330.5
-    m_VBaseRangeMin: -394
-    m_VBaseRangeMax: 394
->>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
+    m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
     m_DrawArea:
       serializedVersion: 2
       x: 0
       y: 17
-<<<<<<< Updated upstream
       width: 678
       height: 693
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 339, y: 346.5}
-=======
-      width: 661
-      height: 788
-    m_Scale: {x: 1.092727, y: 1.092727}
-    m_Translation: {x: 351.28577, y: 377.52075}
->>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< Updated upstream
       x: -339
       y: -346.5
       width: 678
       height: 693
-=======
-      x: -321.47626
-      y: -345.485
-      width: 604.9087
-      height: 721.13165
->>>>>>> Stashed changes
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-<<<<<<< Updated upstream
   m_LastWindowPixelSize: {x: 678, y: 710}
-=======
-  m_LastWindowPixelSize: {x: 661, y: 805}
->>>>>>> Stashed changes
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
-  m_XRRenderMode: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -166,7 +132,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
     width: 1184
     height: 948
   m_MinSize: {x: 402, y: 342}
@@ -176,6 +141,7 @@ MonoBehaviour:
   controlID: 7285
 =======
   controlID: 3841
+<<<<<<< HEAD
 =======
     width: 1157
     height: 947
@@ -185,10 +151,12 @@ MonoBehaviour:
   controlID: 176
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -203,7 +171,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
     width: 1184
     height: 731
   m_MinSize: {x: 402, y: 221}
@@ -213,6 +180,7 @@ MonoBehaviour:
   controlID: 7286
 =======
   controlID: 3975
+<<<<<<< HEAD
 =======
     width: 1157
     height: 826
@@ -222,10 +190,12 @@ MonoBehaviour:
   controlID: 177
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -238,17 +208,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
     width: 502
     height: 731
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 492
-    height: 826
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -259,7 +222,7 @@ MonoBehaviour:
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -277,34 +240,19 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
     y: 91
     width: 500
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 5137.033371062312
-=======
-    y: 92
-    width: 490
-    height: 805
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 2116.3117859491085
->>>>>>> Stashed changes
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< Updated upstream
     m_Target: {x: -2.4037638, y: 2.2847369, z: 4.9490833}
     speed: 2
     m_Value: {x: -2.4037638, y: 2.2847369, z: 4.9490833}
-=======
-    m_Target: {x: 0, y: 1.46, z: 5.3169994}
-    speed: 2
-    m_Value: {x: 0, y: 1.46, z: 5.3169994}
->>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -332,7 +280,6 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-<<<<<<< Updated upstream
     m_Target: {x: -0.35273835, y: -0.42136958, z: 0.18229431, w: -0.8153479}
     speed: 2
     m_Value: {x: 0.35273835, y: 0.42136958, z: -0.18229431, w: 0.8153479}
@@ -343,6 +290,7 @@ MonoBehaviour:
     m_Value: 12.7011795
 =======
     m_Value: 2.23254
+<<<<<<< HEAD
 =======
     m_Target: {x: 0.12791952, y: 0.83013064, z: -0.21268454, w: 0.4992845}
     speed: 2
@@ -353,6 +301,8 @@ MonoBehaviour:
     m_Value: 4.1951046
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -367,7 +317,7 @@ MonoBehaviour:
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -385,14 +335,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 92
-    width: 490
-    height: 805
+    y: 91
+    width: 1077
+    height: 362
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -434,7 +384,7 @@ MonoBehaviour:
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -445,21 +395,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< Updated upstream
     x: 502
     y: 0
     width: 682
     height: 731
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    x: 492
-    y: 0
-    width: 665
-    height: 826
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -468,7 +409,7 @@ MonoBehaviour:
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -480,15 +421,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
     y: 731
     width: 1184
     height: 217
-=======
-    y: 826
-    width: 1157
-    height: 121
->>>>>>> Stashed changes
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
@@ -500,7 +435,7 @@ MonoBehaviour:
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -525,7 +460,7 @@ MonoBehaviour:
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -551,6 +486,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSelectedObjectID: 11574
 =======
 <<<<<<< Updated upstream
@@ -559,10 +495,13 @@ MonoBehaviour:
   m_LastSelectedObjectID: 14254
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+  m_LastSelectedObjectID: 11578
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -577,7 +516,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1184
     y: 0
-<<<<<<< Updated upstream
     width: 242
     height: 948
   m_MinSize: {x: 234, y: 492}
@@ -587,6 +525,7 @@ MonoBehaviour:
   controlID: 6952
 =======
   controlID: 3875
+<<<<<<< HEAD
 =======
     width: 446
     height: 947
@@ -596,10 +535,12 @@ MonoBehaviour:
   controlID: 123
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -612,17 +553,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< Updated upstream
     width: 242
     height: 632
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 446
-    height: 631
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -631,7 +565,7 @@ MonoBehaviour:
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -648,7 +582,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
     x: 1186
     y: 91
     width: 238
@@ -664,6 +597,7 @@ MonoBehaviour:
     m_SelectedIDs: 3a2d0000
     m_LastClickedID: 11578
     m_ExpandedIDs: ecfbffffeefbfffff0fbffff000000003a2d00005a2d0000662d0000
+<<<<<<< HEAD
 =======
     x: 1159
     y: 92
@@ -677,6 +611,8 @@ MonoBehaviour:
     m_ExpandedIDs: e6fbffff00000000
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -703,7 +639,7 @@ MonoBehaviour:
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -715,16 +651,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
     y: 632
     width: 242
-=======
-    y: 631
-    width: 446
->>>>>>> Stashed changes
     height: 316
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -733,7 +664,7 @@ MonoBehaviour:
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -765,7 +696,7 @@ MonoBehaviour:
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
     - Assets/_Animations
   m_ViewMode: 1
@@ -773,11 +704,10 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/_Animations
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Dean\Desktop\Jerrys github\Oathsworn\Knockoff Skyrim
+  m_LastProjectPath: D:\Jerry\Programming\GitHub\Oathsworn\Knockoff Skyrim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 10}
 <<<<<<< HEAD
     m_SelectedIDs: 982a0000
@@ -787,6 +717,7 @@ MonoBehaviour:
     m_SelectedIDs: ee290000
     m_LastClickedID: 10734
     m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
+<<<<<<< HEAD
 =======
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 180a0000
@@ -794,6 +725,8 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000a8090000a22e0000a42e0000a62e0000a82e000000ca9a3b
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -822,6 +755,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000084290000f0290000342a0000842b0000c62d0000c82d0000ca2d0000cc2d000000ca9a3bffffff7f
 =======
 <<<<<<< Updated upstream
@@ -830,6 +764,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000a8090000a22e0000a42e0000a62e0000a82e0000
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+    m_ExpandedIDs: 0000000082290000ee290000322a0000842b0000ce2d0000d02d0000d22d0000d42d000000ca9a3bffffff7f
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -855,6 +792,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 362d0000
     m_LastClickedInstanceID: 11574
 =======
@@ -866,6 +804,10 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
 >>>>>>> Stashed changes
 >>>>>>> 84aed4391d26df21634748a0b8175e95fe8b557e
+=======
+    m_SelectedInstanceIDs: 3a2d0000
+    m_LastClickedInstanceID: 11578
+>>>>>>> parent of 84aed43... Added basic Navmesh and follow script
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 442700006e3dfdfff83bfdff803afdff2c2400005a3e00009e240000c2230000c0230000f2230000f8230000fc23000000000000342c0000
     m_RenameOverlay:
@@ -897,7 +839,7 @@ MonoBehaviour:
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -910,17 +852,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1426
     y: 0
-<<<<<<< Updated upstream
     width: 494
     height: 948
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 317
-    height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -931,7 +866,7 @@ MonoBehaviour:
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -948,17 +883,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< Updated upstream
     x: 1428
     y: 91
     width: 492
     height: 927
-=======
-    x: 1605
-    y: 92
-    width: 315
-    height: 926
->>>>>>> Stashed changes
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -972,7 +900,7 @@ MonoBehaviour:
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -990,14 +918,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1605
-    y: 92
+    y: 91
     width: 315
-    height: 926
+    height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
