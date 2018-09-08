@@ -19,9 +19,19 @@ public class EnemyController : PlayerAttack {
     [SerializeField]
     private float enemyHP = 10f;
 
+    #region Attributes
+
+    private Animator animator;
+
+    private const string KNOCKBACK_ANIMATION_BOOL = "EnemyKnockback";
+    private const string ATTACK_ANIMATION_BOOL = "EnemyAttack";
+
+    #endregion
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -31,7 +41,6 @@ public class EnemyController : PlayerAttack {
             && swordStatus == ATTACKING
             )
         {
-            enemy.GetComponent<Animation>().Play("EnemyKnockback");
             enemyHP = enemyHP - 5f;
             Debug.Log("Player Hit Enemy");
             enemyHit = true;
