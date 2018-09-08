@@ -68,14 +68,4 @@ public class PlayerAttack : EnemyDetection {
         yield return new WaitForSeconds(0.75f);
         swordStatus = IDLE; //player done swinging sword
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Enemy")
-        {
-            Vector3 direction = (transform.position - other.transform.position).normalized;
-
-            other.GetComponent<Rigidbody>().AddForce(direction * speed);
-        }
-    }
 }
