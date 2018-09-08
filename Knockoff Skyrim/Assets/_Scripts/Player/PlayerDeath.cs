@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDeath : MonoBehaviour {
 
@@ -16,11 +17,12 @@ public class PlayerDeath : MonoBehaviour {
     void Update() {
         if (playerHP <= 0f)
         {
-            //Death();
+            Debug.Log("The Player Died");
+            Death();
         }
     }
 
-    private void OnTriggerEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("EnemySword"))
         {
@@ -33,8 +35,8 @@ public class PlayerDeath : MonoBehaviour {
         playerHP = playerHP - 1.0f;
     }
 
-    private void Death()
+    void Death()
     {
-
+        SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
     }
 }

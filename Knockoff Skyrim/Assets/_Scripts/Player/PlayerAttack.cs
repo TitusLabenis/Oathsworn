@@ -9,6 +9,8 @@ public class PlayerAttack : EnemyDetection {
     private const int RIGHTCLICK = 1;
     private const int MIDDLECLICK = 2;
 
+    private float speed = 100f;
+
     public int swordStatus = IDLE;
 
     //Sword Statuses
@@ -65,5 +67,15 @@ public class PlayerAttack : EnemyDetection {
         swordStatus = ATTACKING; //player swinging sword
         yield return new WaitForSeconds(0.75f);
         swordStatus = IDLE; //player done swinging sword
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Vector3 direction = (transform.position - other.transform.position).normalized;
+
+            other.GetComponent<Rigidbody>().AddForce(direction * speed);
+        }
     }
 }
