@@ -11,6 +11,8 @@ public class PlayerAttack : EnemyDetection {
 
     private float speed = 100f;
 
+    private bool hasShield = true;
+
     public int swordStatus = IDLE;
 
     //Sword Statuses
