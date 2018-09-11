@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 5996
+  controlID: 7117
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 5997
+  controlID: 7156
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 5998
+  controlID: 7157
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,12 +231,12 @@ MonoBehaviour:
     height: 121
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 5791
+  controlID: 7048
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -582,7 +582,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 918
-    width: 1320
+    width: 1300
     height: 100
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &20
@@ -613,7 +613,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 10972
+  m_LastSelectedObjectID: 11614
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -641,9 +641,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea070000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f493feff1494fefffadbfffff0fbffff000000004c2d00005e2d0000622d0000702d0000
+    m_ExpandedIDs: defbffffe0fbffff00000000602d00006c2d00007a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,34 +739,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scripts/Player
+    - Assets/_Scripts/Enemy
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scripts/Player
+  - Assets/_Scripts/Enemy
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Jerry\Programming\GitHub\Oathsworn\Knockoff Skyrim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b02b0000
-    m_LastClickedID: 11184
-    m_ExpandedIDs: 0000000082290000ee290000662a0000882b0000d82d0000da2d0000dc2d0000de2d000000ca9a3bffffff7f
+    m_SelectedIDs: 982b0000
+    m_LastClickedID: 11160
+    m_ExpandedIDs: 00000000a22900000e2a0000862a0000ac2b00003a2e00003c2e00003e2e0000402e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: _Scenes
-      m_OriginalName: _Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10854
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -780,7 +780,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082290000662a0000882b0000d82d0000da2d0000dc2d0000de2d000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000a22900000e2a0000862a0000ac2b00003a2e00003c2e00003e2e0000402e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 442700006e3dfdfff83bfdff803afdff2c2400005a3e0000000000009e240000c2230000c0230000f2230000f8230000fc23000012b0ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0

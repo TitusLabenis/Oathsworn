@@ -23,7 +23,7 @@ public class RewindAttack : PlayerAttack {
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.CompareTag("PlayerSword") && swordStatus == BLOCKING)
+        if(collision.gameObject.CompareTag("PlayerSword")  || collision.gameObject.CompareTag("PlayerShield") && swordStatus == BLOCKING)
         {
             StartRewind(); //begin drawing back if the sword has been blocked
             Debug.Log("Enemy Attack Blocked");

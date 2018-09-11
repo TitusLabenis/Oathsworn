@@ -227,6 +227,7 @@ MonoBehaviour:
   Enemy: {fileID: 1315649267}
   swordStatus: 0
   playerSword: {fileID: 37149050}
+  playerShield: {fileID: 298853689}
 --- !u!54 &37149057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -422,7 +423,7 @@ GameObject:
   - component: {fileID: 298853694}
   m_Layer: 0
   m_Name: PlayerShield
-  m_TagString: Untagged
+  m_TagString: PlayerShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,12 +435,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298853689}
   m_LocalRotation: {x: 0.59723485, y: -0.35208398, z: 0.26490438, w: 0.6702038}
-  m_LocalPosition: {x: -0.6, y: 0.171, z: 0.98}
+  m_LocalPosition: {x: -0.6, y: 0.171, z: 1.536}
   m_LocalScale: {x: 0.9369381, y: 0.12497868, z: 0.500722}
   m_Children: []
   m_Father: {fileID: 1635511723}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 80.77801, y: -76.028, z: -24.114}
+  m_LocalEulerAnglesHint: {x: 80.77801, y: -76.028, z: -62.816}
 --- !u!135 &298853691
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -447,7 +448,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298853689}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -505,6 +506,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 924ee85e9a135334eb180adc8c4afcda, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 924ee85e9a135334eb180adc8c4afcda, type: 2}
+  - {fileID: 7400000, guid: 0533b6930732fcc408836e1b7c57d48a, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -578,6 +580,11 @@ Prefab:
       propertyPath: playerSword
       value: 
       objectReference: {fileID: 37149050}
+    - target: {fileID: 114791975249367362, guid: 7f619d5a1bb07ec478ea7986cf88951e,
+        type: 2}
+      propertyPath: playerShield
+      value: 
+      objectReference: {fileID: 298853689}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
   m_IsPrefabParent: 0
