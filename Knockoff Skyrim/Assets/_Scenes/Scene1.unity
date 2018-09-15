@@ -440,7 +440,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1635511723}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 80.77801, y: -76.028, z: -28.137344}
+  m_LocalEulerAnglesHint: {x: 80.77801, y: -76.028, z: -62.816}
 --- !u!135 &298853691
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -585,6 +585,7 @@ Prefab:
       propertyPath: playerShield
       value: 
       objectReference: {fileID: 298853689}
+<<<<<<< HEAD
     - target: {fileID: 114416462242619262, guid: 7f619d5a1bb07ec478ea7986cf88951e,
         type: 2}
       propertyPath: playerShield
@@ -612,13 +613,11 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114214673881532988, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
+=======
+    m_RemovedComponents: []
+>>>>>>> parent of 6dbf993... Fixed Shield
   m_ParentPrefab: {fileID: 100100000, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1226388331 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1187961622294556, guid: 7f619d5a1bb07ec478ea7986cf88951e,
-    type: 2}
-  m_PrefabInternal: {fileID: 725326222}
 --- !u!1 &1315649267 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1269599602715190, guid: 7f619d5a1bb07ec478ea7986cf88951e,
