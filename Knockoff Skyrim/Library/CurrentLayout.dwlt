@@ -166,9 +166,12 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 88
 --- !u!114 &3
 =======
+=======
+>>>>>>> parent of 6dbf993... Fixed Shield
   controlID: 7157
 --- !u!114 &8
 >>>>>>> parent of 6dbf993... Fixed Shield
@@ -230,6 +233,9 @@ MonoBehaviour:
     height: 827
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+<<<<<<< HEAD
+>>>>>>> parent of 6dbf993... Fixed Shield
+=======
 >>>>>>> parent of 6dbf993... Fixed Shield
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -714,9 +720,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 8a290000
     m_LastClickedID: 10634
     m_ExpandedIDs: 000000008a290000f6290000702a0000962b0000422d0000442d0000462d0000482d000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 982b0000
+    m_LastClickedID: 11160
+    m_ExpandedIDs: 00000000a22900000e2a0000862a0000ac2b00003a2e00003c2e00003e2e0000402e000000ca9a3bffffff7f
+>>>>>>> parent of 6dbf993... Fixed Shield
 =======
     m_SelectedIDs: 982b0000
     m_LastClickedID: 11160
@@ -750,7 +762,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000008a290000f6290000702a0000962b0000422d0000442d0000462d0000482d0000
+=======
+    m_ExpandedIDs: 00000000a22900000e2a0000862a0000ac2b00003a2e00003c2e00003e2e0000402e000000ca9a3bffffff7f
+>>>>>>> parent of 6dbf993... Fixed Shield
 =======
     m_ExpandedIDs: 00000000a22900000e2a0000862a0000ac2b00003a2e00003c2e00003e2e0000402e000000ca9a3bffffff7f
 >>>>>>> parent of 6dbf993... Fixed Shield
