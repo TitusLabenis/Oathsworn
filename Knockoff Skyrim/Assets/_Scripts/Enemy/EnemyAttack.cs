@@ -30,7 +30,7 @@ public class EnemyAttack : EnemyDetection {
 
     public void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.CompareTag("PlayerSword"))
+        if (collision.gameObject.CompareTag("PlayerSword") || collision.gameObject.CompareTag("PlayerShield"))
         {
             anim["EnemyAttack"].speed = 0; //stops animation if blocked
         }

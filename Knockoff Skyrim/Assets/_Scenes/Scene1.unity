@@ -600,6 +600,16 @@ Prefab:
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 1226388331}
+    - target: {fileID: 114415400238590712, guid: 7f619d5a1bb07ec478ea7986cf88951e,
+        type: 2}
+      propertyPath: attackingPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114791975249367362, guid: 7f619d5a1bb07ec478ea7986cf88951e,
+        type: 2}
+      propertyPath: attackingPlayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114214673881532988, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
@@ -733,7 +743,7 @@ GameObject:
   - component: {fileID: 1546829778}
   m_Layer: 0
   m_Name: FPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
