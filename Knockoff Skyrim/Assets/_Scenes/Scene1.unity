@@ -588,6 +588,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 114416462242619262, guid: 7f619d5a1bb07ec478ea7986cf88951e,
         type: 2}
       propertyPath: playerShield
@@ -615,6 +616,9 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114214673881532988, guid: 7f619d5a1bb07ec478ea7986cf88951e, type: 2}
+=======
+    m_RemovedComponents: []
+>>>>>>> parent of 6dbf993... Fixed Shield
 =======
     m_RemovedComponents: []
 >>>>>>> parent of 6dbf993... Fixed Shield
